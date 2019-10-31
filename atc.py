@@ -41,6 +41,7 @@ def atc(port, baudrate, rtscts, cmd, timeout, *waitingrsp):
 
 def main(argv):
     if len(argv) < 2:
+        print('AT Command utility, by Antony Shen <antony.shen@gmail.com>')
         print('Usage: %s MODEM_DEVICE [COMMAND] [TIMEOUT]' % argv[0])
         exit(1)
 
